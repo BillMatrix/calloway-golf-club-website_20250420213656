@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callaway Strata Golf Set</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        header {
+            background: #35424a;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: 3px solid #e8491d;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        header nav {
+            text-align: center;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        header nav a:hover {
+            background: #e8491d;
+            color: #fff;
+        }
+
+        #product-details {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #product-details img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        #product-details img:hover {
+            transform: scale(1.05);
+        }
+
+        #product-details h2 {
+            color: #35424a;
+            text-align: center;
+        }
+
+        #product-details h3 {
+            color: #e8491d;
+            margin-top: 20px;
+        }
+
+        #product-details ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        #product-details li {
+            padding: 8px;
+            border-bottom: 1px dotted #ccc;
+        }
+
+        #product-details li:last-child {
+            border-bottom: none;
+        }
+
+        #product-details .price {
+            font-size: 24px;
+            color: #4CAF50;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .btn {
+            background: #e8491d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 20px auto;
+            text-decoration: none;
+            text-align: center;
+            width: fit-content;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #c63d17;
+        }
+
+        #reviews {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #reviews h3 {
+            color: #e8491d;
+        }
+
+        #reviews p {
+            margin-bottom: 15px;
+        }
+
+        #interactive-components {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 20px;
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          margin-bottom: 20px;
+        }
+
+        #interactive-components h3 {
+          color: #e8491d;
+          text-align: center;
+        }
+
+        #interactive-components button {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 5px;
+          transition: background-color 0.3s ease;
+        }
+
+        #interactive-components button:hover {
+          background-color: #3e8e41;
+        }
+
+        #interactive-components table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+        }
+
+        #interactive-components th, #interactive-components td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: left;
+        }
+
+        #interactive-components th {
+          background-color: #f2f2f2;
+        }
+
+        footer {
+            background: #35424a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media(max-width: 768px) {
+            header {
+                text-align: center;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+
+            header nav {
+                text-align: center;
+            }
+
+            header nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Callaway Strata Golf Set</h1>
+            <nav>
+                <a href="#product-details">Details</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#interactive-components">Interactive</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="product-details">
+        <div class="container">
+            <img src="https://m.media-amazon.com/images/I/71mCg4W4mRL._AC_SL1500.jpg" alt="Callaway Strata Golf Set">
+            <h2>Callaway Men\'s Strata Complete Set</h2>
+            <p class="price">$399.00</p>
+            <h3>Features:</h3>
+            <ul>
+                <li>The Strata 12 Piece Set Is Designed For Maximum Performance Right Out Of The Box</li>
+                <li>The Set Includes: Driver, 3 Wood, 5 Hybrid, 6 - 9 Iron, Pw, Putter, Stand Bag And 2 Head Covers</li>
+                <li>Woods: Lightweight 460Cc Forged Driver That Has A Large Sweet Spot, A Titanium Head, And Provides More Forgiveness To Help You Hit It Farther Off The Tee. An Oversized 3 Wood Is Forgiving With A More Aerodynamic Head Shape For Long, High Flying Shots</li>
+                <li>Hybrid: A 5 Hybrid Is A Great Alternative To Difficult Long Irons That Gives You More Confidence On A Variety Of Shots</li>
+                <li>Irons/Wedge: Stainless Steel Irons (6 9 Irons, Pw) Offer A Great Combination Of Forgiveness And Control</li>
+                <li>Putter: A Mallet Putter With Alignment To Help Give You Incredible Accuracy</li>
+            </ul>
+            <a href="https://www.amazon.com/Callaway-Strata-Complete-Piece-Package/dp/B07H2HQJR5" class="btn" target="_blank">Buy on Amazon</a>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <h3>Customer Reviews Summary</h3>
+            <p>Customers find this golf set offers good value for money and is particularly suitable for beginners, with well-made clubs that hold up well and are easy to carry.</p>
+            <p>The set receives positive feedback for its playability, with one customer noting the nice weight on the club heads.</p>
+            <p>However, the size receives mixed reviews, with some finding the case size perfect while others say the irons are too short.</p>
+            <p>Moreover, the driver quality and dent resistance are concerns, with multiple customers reporting issues with the driver being unusable and the driver dented after just 6 rounds of play.</p>
+        </div>
+    </section>
+
+    <section id="interactive-components">
+      <div class="container">
+        <h3>Interactive Components</h3>
+        <button onclick="showAlert()">Click Me!</button>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Club Type</th>
+              <th>Material</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Driver</td>
+              <td>Titanium</td>
+              <td>Forgiving with a large sweet spot</td>
+            </tr>
+            <tr>
+              <td>Irons</td>
+              <td>Stainless Steel</td>
+              <td>Great combination of forgiveness and control</td>
+            </tr>
+            <tr>
+              <td>Putter</td>
+              <td>Steel</td>
+              <td>Mallet putter with alignment aid</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Callaway Strata Golf Set</p>
+    </footer>
+
+    <script>
+      function showAlert() {
+        alert("You clicked the button!");
+      }
+    </script>
+</body>
+</html>
